@@ -76,10 +76,10 @@ def bagofword(path,nature):
                         c.writerow(liste2[r])
 
 
-    #Exemple d'utilisation de la fonction 
-    f=bagofword('/home/delwende/Documents/machine3','commit')
+   #EG. Usage of this function
+    #f=bagofword('/home/delwende/Documents/machine3','commit')
 
-    from lxml import etree
+from lxml import etree
 import commands
 import os
 import subprocess
@@ -95,7 +95,6 @@ def commit_extraction(path):
     except OSError:
         if not os.path.isdir(repertoire):
             Raise
-    #On commence a parcourir tous les fichiers xmls contenus dans le dossier 
     for dossier, sous_dossiers, fichiers in os.walk(path+'/xml'):
         for j in range(len(fichiers)):
             tree = etree.parse(path+'/xml/'+fichiers[j])
@@ -132,7 +131,6 @@ import csv
 #Function witch allow to delete commits with empty logs 
 
 def commit_empty(rep):
-    #script-pour supprimer tous les fichiers nulls 
     for dossier, sous_dossiers, fichiers in os.walk(rep):
          for j in range(len(fichiers)):
                 #print fichiers[j]
@@ -537,7 +535,6 @@ def features(path,nature):
                         c_nbr_offset_p=0
                         c_nbr_offset_f=0            
 
-                        #compte le nombre d'ajouts 
                     if line[0]=="+":
                         if "if (" in line:
                             c_if_p=c_if_p+1
@@ -613,7 +610,7 @@ def features(path,nature):
                     #----------------------------------------------------------
                         if ("for (" in line) or ("while (" in line):
                             c_b_n=c_b_n+1
-                        if line[1]=="-" and line[2]=="-": ##détection des fichiers retirés pour chaque patch 
+                        if line[1]=="-" and line[2]=="-": 
                             c_n_n=c_n_n+1
                         if any(i in line for i in ["int", "static", "void", "float", "char", "char*", "string"]):
                             if "(" in line and ")" in line:
@@ -647,8 +644,8 @@ def features(path,nature):
             if nature=='fix':
                 listenew=classe_fix
             
-            #On enregistre les resultats sous format csv et on crée une liste qui vas contenir les features de tous les fichiers 
             feature=[]
+            #Results saved of CSV files for machine learning algorithms
 
             c = csv.writer(open(path+"/csv/"+fichiers[w]+'.csv', "wb"))
             for d in range(i):
@@ -680,12 +677,11 @@ def features(path,nature):
 
     
                                         # Training    
-    #One class classifier : on utilise la partie trainset2
+    #One class classifier 
     clf = svm.OneClassSVM(nu=0.1,kernel = "linear", gamma =0.5)
     y_score = clf.fit(data_train)
     preds = clf.predict(test1) 
-    
-    ######################################Extraction des valeurs positives et negatives dans le predictset########################"
+    # positive feature extraction from predictset
     
     pred_pos=[]
     pred_neg=[]
