@@ -1,3 +1,9 @@
+
+#Based on  https://github.com/jjrob13/sklearn_cotraining
+
+
+
+
 import numpy as np
 import random
 import copy
