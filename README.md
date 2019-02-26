@@ -11,7 +11,7 @@ This project is based on Data7 Tool(https://github.com/electricalwind/data7) for
 ## Deploiement
 * [Module 1]- VulnCatcher a semi-supervised approach for security patches detection.
 
- ![picture](trainn1.PNG)
+ ![picture](trainnn1PNG)
 
 ## Coder avec
 
