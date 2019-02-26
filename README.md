@@ -22,7 +22,7 @@ Compile files with : python setup.py
 <ul> <li> Download Python 2.7</li> <li> Compile files with : python setup.py </li> </ul> 
 
 ## IV- Results- Confusion matrix
-![picture](results/confusion.png)
+
 
 ## V- Results- Confusion matrix
 ![picture](results/confusion.png)
