@@ -26,7 +26,7 @@ Compile files with : python setup.py
  <li> Linux</li> 
   <ul> 
   <li> commit 61656dd2e62f91b194b803f15c6faf0a647dcdf9</li> 
-     <li> Fix handling of DEB_BUILD_OPTIONS=nocheck</li> 
+     <li> commit 724519d8f987b069867cb9b0cf25a50116402f37</li> 
   </ul>
   <li> Compile files with : python setup.py </li> 
 </ul> 
