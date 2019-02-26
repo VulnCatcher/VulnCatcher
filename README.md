@@ -1,17 +1,32 @@
-# VulnCatcher
+
 This is a machine learning project for vulnerabity patches.
-This project is based on Data7 Tool(https://github.com/electricalwind/data7) for Labeled examples and each fix commits for unlabeled examples.
 
-* [Module 1]- VulnCatcher a semi-supervised approach for security patches detection.
-* [Module 2]- Pourquoi utiliser module 2
-* [Librairie]- Pourquoi utiliser librarie
 
-![picture](image.png)
+* [I]- Introduction VulnCatcher
+* [II]- Based Co-Training approach inside VulnCatcher
+* [III]- Dataset used
+* [IV]- Environnement
+* [V]- Security patches prédiction
+* [VI]- 
 
-## Deploiement
-* [Module 1]- VulnCatcher a semi-supervised approach for security patches detection.
-
+## [I]-Introduction to VulnCatcher
+VulnCatcher a semi-supervised learning approach for security patches detection.
  ![picture](trainnn1.PNG)
 
-## Coder avec
+
+# [II] Based Co-Training approach inside VulnCatcher
+![picture](image.png)
+
+
+## [III]-Dataset used
+This project is based on Data7 Tool(https://github.com/electricalwind/data7) for Labeled examples and each fix commits for unlabeled examples.
+
+## [IV]-Environnement
+
+Compile files with : python setup.py
+
+<ul> <li> Download Python 2.7</li> <li> Compile files with : python setup.py </li> </ul> 
+
+## [V]- Results- Confusion matrix
+![picture](results/confusion.png)
 
