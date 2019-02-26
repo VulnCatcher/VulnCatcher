@@ -1,8 +1,8 @@
 # VulnCatcher
 This is a machine learning project for vulnerabity patches.
 This project is based on Data7 Tool(https://github.com/electricalwind/data7) for Labeled examples and each fix commits for unlabeled examples.
-![alt text](https://raw.githubusercontent.com/VulnCatcher/VulnCatcher/branch/path/to/image.pdf)
 
+![picture](image.png)
 ## Deploiement
 
 Expliquer dans cette section comment l'utilisateur va devoir s'y prendre pour déployer son application sur le net
