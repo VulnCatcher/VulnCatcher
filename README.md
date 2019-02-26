@@ -13,7 +13,7 @@ VulnCatcher a semi-supervised learning approach for security patches detection.
 ![picture](img/image.png)
 
 ## II-Dataset collection
-<p>This project is based on Data7 Tool(https://github.com/electricalwind/data7) for Labeled examples and each fix commits for unlabeled examples.</p>
+This project is based on Data7 Tool(https://github.com/electricalwind/data7) for Labeled examples and each fix commits for unlabeled examples.
 ![picture](img/dataset.png)
 
 
