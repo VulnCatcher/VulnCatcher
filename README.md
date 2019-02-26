@@ -23,7 +23,8 @@ Compile files with : python setup.py
 
 ## IV- Results: Detected security patches examples
 <ul> 
-  <ul> Linux
+ <li> Linux</li> 
+  <ul> 
   <li> commit 61656dd2e62f91b194b803f15c6faf0a647dcdf9</li> 
      <li> Fix handling of DEB_BUILD_OPTIONS=nocheck</li> 
   </ul>
