@@ -23,6 +23,9 @@ Compile files with : python setup.py
 
 <ul> <li> Download Python 2.7</li> <li> Compile files with : python setup.py </li> </ul> 
 
+## III-How to run
+To run this machine learning approach, please check instructions on <u>setup.py</u>.
+
 ## IV- Results: Detected security patches examples
 We choosed some examples on prediction set to check manualy if our approach really detect security patches.
 <ul> 
