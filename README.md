@@ -52,5 +52,5 @@ We chose some examples on prediction set to check if our approach really detects
 ![picture](results/confusion.png)
 
 ## VII- State of art comparison
-![picture](results/state_of_art.png)
+![picture](img/state_of_art.png)
 
