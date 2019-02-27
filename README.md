@@ -1,10 +1,10 @@
 
-This is a machine learning project for vulnerabity patches.
+This is a machine learning project for vulnerability patches.
 
 
 * I- Introduction VulnCatcher
 * II- Dataset used
-* III- Environnement
+* III-Environment
 * IV- Results: Detected security patches examples
 * V- Results: Confusion matrix
 
@@ -23,11 +23,11 @@ Compile files with : python setup.py
 
 <ul> <li> Download Python 2.7</li> <li> Compile files with : python setup.py </li> </ul> 
 
-## III-How to run
+## IV-How to run
 To run this tool, please check instructions on **setup.py**.
 
-## IV- Results: Detected security patches examples
-We choosed some examples on prediction set to check manualy if our approach really detect security patches.
+## V- Results: Detected security patches examples
+We chose some examples on prediction set to check if our approach really detects security patches.
 <ul> 
   <li> Linux project examples</li>
   <ul> 
@@ -46,6 +46,6 @@ We choosed some examples on prediction set to check manualy if our approach real
   </ul> 
 </ul> 
 
-## V- Results- Confusion matrix
+## VI- Results- Confusion matrix
 ![picture](results/confusion.png)
 
