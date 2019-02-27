@@ -5,12 +5,14 @@ This is a machine learning project for vulnerability patches.
 * I- Introduction VulnCatcher
 * II- Dataset used
 * III-Environment
-* IV- Results: Detected security patches examples
-* V- Results: Confusion matrix
+* IV-How to run
+* V- Results: Detected security patches examples
+* VI- Results: Confusion matrix
+* VII- State of art comparison
 
 ## I-Introduction to VulnCatcher
 VulnCatcher a semi-supervised learning approach for security patches detection.
-![picture](img/image.png)
+![picture](img/cotraining.png)
 
 ## II-Dataset collection
 This project is based on Data7 Tool(https://github.com/electricalwind/data7) for Labeled examples and each fix commits for unlabeled examples.
@@ -48,4 +50,7 @@ We chose some examples on prediction set to check if our approach really detects
 
 ## VI- Results- Confusion matrix
 ![picture](results/confusion.png)
+
+## VII- State of art comparison
+![picture](results/state_of_art.png)
 
