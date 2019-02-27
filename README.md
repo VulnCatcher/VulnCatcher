@@ -12,7 +12,7 @@ This is a machine learning project for vulnerability patches.
 
 ## I-Introduction to VulnCatcher
 VulnCatcher a semi-supervised learning approach for security patches detection.
-![picture](img/cotraining.png)
+![picture](img/cotrainig.png)
 
 ## II-Dataset collection
 This project is based on Data7 Tool(https://github.com/electricalwind/data7) for Labeled examples and each fix commits for unlabeled examples.
