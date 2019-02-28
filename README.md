@@ -53,4 +53,5 @@ We chose some examples on prediction set to check if our approach really detects
 
 ## VII- State of art comparison
 ![picture](img/state_of_art.png)
+![picture](img/table2.png)
 
