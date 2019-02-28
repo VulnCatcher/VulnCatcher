@@ -55,5 +55,5 @@ We chose some examples on prediction set to check if our approach really detects
 ##### -Our approach outperforms the state-of-the-art in the identification of security-relevant commits. 
  ![picture](img/state_of_art.png)
  
-##### -Our approach yields a highly accurate classifier for classifying patches with respect to whether they are security-relevant or not.
+##### -Our performance results are above those reported by prior work for classifying patches.
 ![picture](img/table3.png)
