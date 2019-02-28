@@ -52,6 +52,12 @@ We chose some examples on prediction set to check if our approach really detects
 ![picture](results/confusion.png)
 
 ## VII- State of art comparison
-![picture](img/state_of_art.png)
+<ul> 
+ <li>Our approach outperforms the state-of-the-art in the identification of security-relevant commits. </li>
+</ul> 
+ ![picture](img/state_of_art.png)
+<ul>
+  <li>Our approach yields a highly accurate classifier for classifying patches with respect to whether they are
+security-relevant or not</li>
+</ul>
 ![picture](img/table2.png)
-
